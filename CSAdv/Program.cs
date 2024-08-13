@@ -14,6 +14,18 @@ namespace CSAdv
             Value = value;
         }
     }
+
+    class Needed<T, U> // Generic
+    {
+        public T Value1;
+        public U Value2;
+        public Needed(T value1, U value2)
+        {
+            Value1 = value1;
+            Value2 = value2;
+        }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
